@@ -1,6 +1,10 @@
 Database Setup Instructions:
 For the database I am just using the native PostgreSQL 16 app for MacOS
 
+Youtube Link:
+https://www.youtube.com/watch?v=3Q3jheVZ7No
+
+
 1. Open up Postgres and click start to start the postgres server
 
 2. Open up a terminal, type psql to enter psql mode
@@ -59,15 +63,10 @@ Example calls:
 "node app.js updateStudentEmail 4  ho.matthew@cmail.ca
 "node app.js deleteStudent 4"
 
+
 Error checking
 Example: adding a student with existing email
-John John john.doe@example.com 2023-09-01
-
-
-
-
-
-
+node app.js addStudent John John john.doe@example.com 2023-09-01
 
 
 
